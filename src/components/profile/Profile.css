@@ -20,7 +20,7 @@ font-weight:bold;
     color:#777;
 }
 .profile_image {
-    border: 1px solid rebeccapurple;
+   
 margin-top: -10px; 
 
 -webkit-clip-path:polygon(0 9%,100% 0,100% 94%,0% 100%);
@@ -28,4 +28,26 @@ clip-path: polygon(0 9%,100% 0,100% 94%,0% 100%);
 }
 .profile_image img{
     width: 100%;
+}
+/* information */
+.profile_information{
+    top: 0;
+    left:0;
+    margin: -49px 10px 30px;
+}
+.profile_information .timeline .timeline_content{
+   
+    margin-bottom: 1px;
+}.timelineItem_text{
+    font-size: 13.5px !important;
+    color: #787878;
+    font-weight: 400 !important;
+}.timelineItem_text > a{
+    color: #787878;
+text-decoration:none;
+
+}.timelineItem_text >span{
+    color: rgb(10, 9, 9);
+    font-size: 15px;
+    font-weight: bold;
 }

@@ -8,11 +8,12 @@ import Portfolio from "./components/porfolio/Portfolio";
 import Resume from "./components/resume/Resume";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Profile from "./components/profile/Profile";
+import'./App.css';
 
 function App() {
   return (
-    <Container>
-      <Grid container>
+    <Container className={'top_60'} >
+      <Grid container spacing={3} >
         <Grid
           item
           xs={12}
