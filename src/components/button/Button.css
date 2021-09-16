@@ -22,7 +22,7 @@
 
 }
 .custom_btn .btn_icon_container > .MuiSvgIcon-root{
-    font-size:  10px !important;
+    font-size:  20px !important;
     
 }
 
@@ -33,5 +33,5 @@
  
     width: 100px;
     margin-right: 5px;
-    margin-right: 5px;
+    margin-left: 5px;
 }

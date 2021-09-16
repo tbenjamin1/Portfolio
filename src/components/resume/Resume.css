@@ -1,0 +1,21 @@
+.about_text{
+color: darkslategrey !important ;
+font: smaller !important;
+line-height: 22px !important;
+white-space: pre-line !important;
+
+}
+/* timeline section */
+.timeline_title{
+    font-size: 16px !important;
+    font-weight: 500 !important;
+}
+.timeline_date{
+    color: darkslategrey;
+}
+.timeline_description {
+    color:grey;
+    font-size: small;
+    margin-top: 6px;
+}
+/* end of section */

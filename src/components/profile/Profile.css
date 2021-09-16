@@ -2,6 +2,7 @@
     background-color: #fff;
     border-radius: 6px;
     width: 100%;
+    
     display: inline-block;
     border: 1px solid rebeccapurple;
 
@@ -50,4 +51,12 @@ text-decoration:none;
     color: rgb(10, 9, 9);
     font-size: 15px;
     font-weight: bold;
+   
+}
+.profile .btn_container{
+    width: 100%;
+    display: flex !important;
+    justify-content: center;
+    margin-top: 1  0px;
+
 }
