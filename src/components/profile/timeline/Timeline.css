@@ -32,7 +32,7 @@ display: none;
 
 }
 .timeline .MuiTimelineConnector-root{
-    background-color:green ;
+    background-color:darkslategrey ;
 }
 .timeline .timeline_dot_header> .MuiSvgIcon-root{
     font-size: 20px;

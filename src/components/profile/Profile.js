@@ -19,12 +19,11 @@ const CustomTimelineItem = ({ title,icon, text, link }) => (
 
 
 
-{/* {Object.keys(resumeData.socials).map((key) =>(
+{Object.keys(resumeData.socials).map((key) =>(
 
-<span>  {resumeData.socials[key].icon} </span>
+<span>  {resumeData.socials[key].icon.icon} </span>
 
-))}; */}
-
+))};
           <span> {title} </span>{" "}
           <a href={link} target="_blank">
             {text}

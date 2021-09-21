@@ -11,6 +11,9 @@ html {
 body {
   margin: 0;
   /* background:linear-gradient(); */
+  
+  background: linear-gradient(to left, rgb(240, 131, 212), rgb(143, 212, 212) 50%, #eee 75%, rgb(223, 197, 197) 75%);
+  /* background: linear-gradient(0.25turn,darkslategrey ,#ebf8e1,#3f87a6); */
   overflow-x: hidden;
  
   
