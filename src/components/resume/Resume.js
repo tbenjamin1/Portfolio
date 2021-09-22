@@ -20,7 +20,7 @@ const Resume = () => {
           <span></span>
           <Typography variant="h6" className="section_title_text">
             {" "}
-            Abo ut Me
+            AbutMe
           </Typography>
         </Grid>
         <Grid item xs={12}>
@@ -135,7 +135,7 @@ const Resume = () => {
         container
         spacing={"space-between"}
         justify="space-between"
-        className="section graybg pb_45"
+        className="section_skils graybg pb_45"
       >
         {resumeData.skills.map((skill) => (
           <Grid item sx={12} sm={6} md={3}>
@@ -165,10 +165,10 @@ const Resume = () => {
               </h6>
               <Grid item xs={12}>
                 <Grid container spacing={3}>
-                  <Grid item sm={12} sm={6}>
-                    <TextField fullWidth name="name" label="Name" />
+                  <Grid item sm={12} sm={5}>
+                    <TextField fullWidth name="name" label="Name" className="textfield" />
                   </Grid>
-                  <Grid item sm={12} sm={6}>
+                  <Grid item sm={12} sm={5}>
                     <TextField fullWidth name="email" label="E-mail" />
                   </Grid>
                   <Grid item sm={12}>
@@ -181,7 +181,8 @@ const Resume = () => {
                     />
                   </Grid>
                   <Grid item sm={12}>
-                    <CustomButton text="submmit" />
+                   
+                    <button> submmit</button>
                   </Grid>
                 </Grid>
               </Grid>

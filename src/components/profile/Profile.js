@@ -9,7 +9,7 @@ import PersonOutlineIcon from '@material-ui/icons/PersonOutline';
 import TimelineItem from "@material-ui/lab/TimelineItem";
 import resumeData from "../utils/resumeData";
 
-const CustomTimelineItem = ({ title,icon, text, link }) => (
+const CustomTimelineItem = ({ title,txt, text, link }) => (
   <TimelineItem>
     <CustomTimelineSeparator />
     
@@ -19,12 +19,12 @@ const CustomTimelineItem = ({ title,icon, text, link }) => (
 
 
 
-{Object.keys(resumeData.socials).map((key) =>(
+{/* {Object.keys(resumeData.socials).map((key) =>(
 
 <span>  {resumeData.socials[key].icon.icon} </span>
 
-))};
-          <span> {title} </span>{" "}
+))}; */}
+          <span> {txt} </span>{" "}
           <a href={link} target="_blank">
             {text}
           </a>
@@ -51,9 +51,10 @@ const Profile = () => {
       </figure>
       <div className="profile_information">
         <CustomTimeline icon={<PersonOutlineIcon />}>
-          {/* <CustomTimelineItem title="Name" text={resumeData.name} />
-          <CustomTimelineItem title="Title" text={resumeData.title} /> */}
+          {/* <CustomTimelineItem title="Name" text={resumeData.name} /> */}
+          
           <CustomTimelineItem title="Email" text={resumeData.email} />
+          <CustomTimelineItem title="Title" text={resumeData.phone} />
 
           {Object.keys(resumeData.socials).map((key) => (
             <CustomTimelineItem

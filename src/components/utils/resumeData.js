@@ -8,50 +8,50 @@ import LanguageIcon from "@material-ui/icons/Language";
 // import pp from "../../assets/images/pp.jpg";
 
 export default {
-  name: "tyisingize benjamin",
-  title: "full stack bdeveloper",
+  name: "tuyisingize benjamin",
+  title: "FULL STACK WEB DEVELOPER",
   birthday: "06th december 1999",
-  email: "sam@sam.com",
+  email: "tbenpollyl@gmail.com",
   address: "23 kg st",
   phone: "+250787438701",
   socials: {
     facebook: {
       link: "https://www.facebook.com",
-      text: "Mytwitter",
-      icon: <FacebookIcon />,
+      txt: "Myfacebook",
+      text: <FacebookIcon />,
     },
 
     Twitter: {
       link: "https://www.facebook.com",
-      text: "Mytwitter",
-      icon: <TwitterIcon />,
+      txt: "Mytwitter",
+      text: <TwitterIcon />,
     },
     GitHub: {
       link: "https://www.facebook.com",
-      text: "Mylinkdin",
-      icon: <GitHubIcon />,
+      txt: "Mylinkdin",
+      text: <GitHubIcon />,
     },
     Linkedlin: {
       link: "https://www.facebook.com",
-      text: "myGitHub",
-      icon: <LinkedInIcon />,
+      txt: "myGitHub",
+      text: <LinkedInIcon />,
     },
   },
 
   about:
-    " Lorem Ipsum is simply dummy text of the printing and typesetting industry. standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining  Lorem Ipsum has been the industry's ",
+    " Am persistent and ambitious software engineer with a desire to grow fast in this domain. Capable of ramping up  quickly and efficiently, and of both working in a team or solo. Love of remote work. Skills in many languages,frameworks, and technologies.",
   experiences: [
     {
-      title: "work 1",
+      title: "PANEL TECH",
       date: "218 - PresentToAll",
       description:
-        "imply dummy text of the printing and typesetting industry. standard dummy ",
+        "software engineer",
     },
     {
-      title: "work 2",
+      title: "UNIVERSITY OF RWANDA",
       date: "214 -215",
       description:
-        "imply dummy text of the printing and typesetting industry. standard dummy ",
+        "internship ",
     },
     {
       title: "work 3",
@@ -63,19 +63,25 @@ export default {
 
   educations: [
     {
-      title: "education1",
-      date: "218 - PresentToAll",
+      title: "UNIVERSITY OF RWANDA",
+      date: "217 - PresentToAll",
       description:
-        "imply dummy text of the printing and typesetting industry. standard dummy ",
+        " Honor’s Bachelor of Computer Software Engineering ",
     },
     {
-      title: "education 2",
-      date: "214 -215",
+      title: "ES KANOMBE/EFOTEC",
+      date: "2014 -2016",
       description:
-        "imply dummy text of the printing and typesetting industry. standard dummy ",
+        "HIGH SCHOOL DIPLOMA/A LEVEL ",
     },
     {
-      title: "education 3",
+      title: "GROUP SCORAILE ST JOSEPH",
+      date: "2010 - 2013",
+      description:
+        "O LEVEL ",
+    },
+    {
+      title: "EP GISOZI II",
       date: "218 - 214",
       description:
         "imply dummy text of the printing and typesetting industry. standard dummy ",
@@ -131,8 +137,8 @@ export default {
   projects: [
     {
       tag: "React",
-      image: require("../../assets/images/pp.jpg"),
-      title: "project 1",
+      image: require("../../assets/images/pp.jpg").default,
+      title: "COVID TRACKER",
       capation:'s simply dummy text of the printing and typesetting ',
       description:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
@@ -145,8 +151,8 @@ export default {
 
     {
       tag: "React",
-      image: require("../../assets/images/pp.jpg"),
-      title: "project 2",
+      image: require("../../assets/images/pp.jpg").default,
+      title: "FOOD ORDER APP",
       capation:'s simply dummy text of the printing and typesetting ',
       description:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
@@ -159,11 +165,11 @@ export default {
 
     {
       tag: "React",
-      image: require("../../assets/images/pp.jpg"),
-      title: "project 3",
-      capation:'s simply dummy text of the printing and typesetting ',
+      image: require("../../assets/images/pp.jpg").default,
+      title: "ALBUM VIEW",
+      capation:'web App used to view the album of photos  ',
       description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+        "it is a web App used to view the album of photos but it depends on the id user entered In the input field and when they click on the “Get Album Photos By Id” button, the application displays the title and a thumbnail image of all  the photos of the album by that id",
       link: [
         { link: "https://www.google.com", icon: <LanguageIcon /> },
         { link: "https://www.google.com", icon: <GitHubIcon /> },
@@ -172,26 +178,27 @@ export default {
     },
 
     {
-      tag: "JavaScrpt",
-      image: require("../../assets/images/pp.jpg"),
-      title: "project 1",
-      capation:'s simply dummy text of the printing and typesetting ',
+      tag: "javascript",
+      image: require("../../assets/images/pp.jpg").default,
+      title: "USER VIEWER",
+      capation:' purpose of this project is to displays all users and their related information ',
       description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+        "the purpose of this project is to displays all 10 users (name and email only) from the API after page loads and after loading all  of user it comes with button, when that button is clicked it display a list of posts by that user",
       link: [
         { link: "https://www.google.com", icon: <LanguageIcon /> },
         { link: "https://www.google.com", icon: <GitHubIcon /> },
         { link: "https://www.google.com", icon: <LanguageIcon /> },
       ],
     },
+
 
     {
       tag: "php",
-      image: require("../../assets/images/pp.jpg"),
-      title: "project 1",
-      capation:'s simply dummy text of the printing and typesetting ',
+      image: require("../../assets/images/pp.jpg").default,
+      title: "UR-ALUMN I",
+      capation:'university of rwand alumnI database',
       description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+        "the purpose of this project is build website that will help University of Rwanda to manage all UR-graduates in their college and to maintain all the information related to all of their Alumnus, so that the Alumnus is great partner of the University of Rwanda based on their expertise. they are one of the partner needed to empower through inviting them to give their contribution to the University of Rwanda",
       link: [
         { link: "https://www.google.com", icon: <LanguageIcon /> },
         { link: "https://www.google.com", icon: <GitHubIcon /> },
@@ -201,7 +208,7 @@ export default {
 
     {
       tag: "Python",
-      image: require("../../assets/images/pp.jpg"),
+      image: require("../../assets/images/pp.jpg").default,
       title: "project 1",
       capation:'s simply dummy text of the printing and typesetting ',
       description:

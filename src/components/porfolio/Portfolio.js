@@ -25,13 +25,13 @@ const Portfolio = () => {
   
 
   return (
-    <Grid container className="section  pb_45  pt_45 mr_30">
+    <Grid container className="section_porfolio  pb_45  pt_45 mr_30">
       {/* title */}
       <Grid item className="section_title mb_30 ">
         <span></span>
         <h6 variant="h6" className="section_title_text">
           {" "}
-          Portfolio
+          {/* Portfolio */}
         </h6>
       </Grid>
       {/* tabs */}

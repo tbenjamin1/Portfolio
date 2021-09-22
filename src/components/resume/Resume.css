@@ -1,5 +1,5 @@
 .section{
-    padding: 4px;
+    padding: 40px;
     box-shadow: 0px 0px 48px rgb(4,6, 4, 0.08) !important;
 }
 .about_text{
@@ -28,6 +28,7 @@ white-space: pre-line !important;
 background-color:rgb(154, 154, 209);
     height: 100%;
     text-align: center;
+  
 }
 .service .service_title{
     font-size: 16px !important;
@@ -51,13 +52,20 @@ background-color:rgb(154, 154, 209);
     color: black!important;
 }
 /* skills */
+.section_skils{
+    
+    padding:  10px auto;
+  
+}
 .skill{
     border-radius: 8px;
-    
+    margin: 1.5rem;
+    width: 30px;
     padding: 20px;
     box-shadow: 0px 0px 48px rgb(4,6, 4, 0.08) !important;
-    min-height: 186px;
+    width: 100%!important;
     height: 100%;
+    margin-bottom: 40px;
 }
 .skill .skill_title{
     
@@ -85,4 +93,7 @@ line-height: 18px !important;
   font-size: 20px;
   margin-right: 7px !important;
  
+}
+.sectionc{
+    border: 1px solid red;
 }
