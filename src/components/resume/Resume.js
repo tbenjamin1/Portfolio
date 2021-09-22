@@ -195,7 +195,7 @@ const Resume = () => {
               <Paper elevation={0} className="skill">
                 <figure className="profile_image">
                   <img
-                    src={require("../../assets/images/pp.jpg").default}
+                    src={require("../../assets/images/face.jpeg").default}
                     alt=""
                   />
                 </figure>

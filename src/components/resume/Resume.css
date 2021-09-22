@@ -25,7 +25,7 @@ white-space: pre-line !important;
 /* end of section */
 /* services */
 .service{
-background-color: darkslategrey;
+background-color:rgb(154, 154, 209);
     height: 100%;
     text-align: center;
 }

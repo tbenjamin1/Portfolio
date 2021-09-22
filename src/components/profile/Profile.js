@@ -47,7 +47,7 @@ const Profile = () => {
         {/* <Typography className="title">{resumeData.email}</Typography> */}
       </div>
       <figure className="profile_image">
-        <img src={require("../../assets/images/pp.jpg").default} alt="" />
+        <img src={require("../../assets/images/me.jpeg").default} alt="" />
       </figure>
       <div className="profile_information">
         <CustomTimeline icon={<PersonOutlineIcon />}>
