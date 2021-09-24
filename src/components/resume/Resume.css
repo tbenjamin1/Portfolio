@@ -52,16 +52,17 @@ background-color:rgb(154, 154, 209);
     color: black!important;
 }
 /* skills */
-.section_skils{
+.section{
     
     padding:  10px auto;
-  
+    
+    
 }
 .skill{
-    border-radius: 8px;
-    margin: 1.5rem;
+    border-radius:8px;
+    margin:1rem;
     width: 30px;
-    padding: 20px;
+   
     box-shadow: 0px 0px 48px rgb(4,6, 4, 0.08) !important;
     width: 100%!important;
     height: 100%;
@@ -85,7 +86,7 @@ line-height: 18px !important;
 
 }
 .timeline_dot{
-    border: 1px solid red;
+   
 
  cursor: pointer;
   border-color: var(--main-color); 
@@ -94,6 +95,4 @@ line-height: 18px !important;
   margin-right: 7px !important;
  
 }
-.sectionc{
-    border: 1px solid red;
-}
+

@@ -134,8 +134,8 @@ const Resume = () => {
       <Grid
         container
         spacing={"space-between"}
-        justify="space-between"
-        className="section_skils graybg pb_45"
+        justify={"space-between"}
+        className="section graybg pb_45"
       >
         {resumeData.skills.map((skill) => (
           <Grid item sx={12} sm={6} md={3}>
@@ -171,7 +171,7 @@ const Resume = () => {
                   <Grid item sm={12} sm={5}>
                     <TextField fullWidth name="email" label="E-mail" />
                   </Grid>
-                  <Grid item sm={12}>
+                  <Grid item sm={12}  sm={8}>
                     <TextField
                       fullWidth
                       name="message"
@@ -201,6 +201,7 @@ const Resume = () => {
                   />
                 </figure>
               </Paper>
+              
               {/* <ContactImage/> */}
             </Grid>
           </Grid>
