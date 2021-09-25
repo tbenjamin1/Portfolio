@@ -61,7 +61,7 @@ background-color:rgb(154, 154, 209);
 .skill{
     border-radius:8px;
     margin:1rem;
-    width: 30px;
+    /* width: 30px; */
    
     box-shadow: 0px 0px 48px rgb(4,6, 4, 0.08) !important;
     width: 100%!important;
