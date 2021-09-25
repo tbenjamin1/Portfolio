@@ -61,11 +61,11 @@ background-color:rgb(154, 154, 209);
 .skill{
     border-radius:8px;
     margin:1rem;
-    width: 30px;
+    
    
     box-shadow: 0px 0px 48px rgb(4,6, 4, 0.08) !important;
-    width: 100%!important;
-    height: 100%;
+    width: 20px!important;
+    height: 100% !important;
     margin-bottom: 40px;
 }
 .skill .skill_title{
@@ -89,9 +89,9 @@ line-height: 18px !important;
    
 
  cursor: pointer;
-  border-color: var(--main-color); 
+  background-color: var(--main-color); 
   padding-left: 40px !important;
-  font-size: 20px;
+  font-size: 15px !important;
   margin-right: 7px !important;
  
 }
