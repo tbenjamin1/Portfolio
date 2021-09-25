@@ -223,13 +223,13 @@ export default {
 
     {
       tag: "javascript",
-      image: require("../../assets/images/pp.jpg").default,
+      image: require("../../assets/images/user.PNG").default,
       title: "USER VIEWER",
       capation:' purpose of this project is to displays all users and their related information ',
       description:
         "the purpose of this project is to displays all 10 users (name and email only) from the API after page loads and after loading all  of user it comes with button, when that button is clicked it display a list of posts by that user",
       link: [
-        { link: "https://www.google.com", icon: <LanguageIcon /> },
+        { link: "https://tbenjamin1.github.io/USER-CONTROLLER/", icon: <LanguageIcon /> },
         { link: "https://github.com/tbenjamin1/USER-CONTROLLER", icon: <GitHubIcon /> },
         // { link: "https://www.google.com", icon: <LanguageIcon /> },
       ],
@@ -252,29 +252,29 @@ export default {
 
     {
       tag: "php",
-      image: require("../../assets/images/pp.jpg").default,
+      image: require("../../assets/images/alm.PNG").default,
       title: "UR-ALUMN I",
       capation:'university of rwand alumnI database',
       description:
         "the purpose of this project is build website that will help University of Rwanda to manage all UR-graduates in their college and to maintain all the information related to all of their Alumnus, so that the Alumnus is great partner of the University of Rwanda based on their expertise. they are one of the partner needed to empower through inviting them to give their contribution to the University of Rwanda",
       link: [
-        { link: "https://www.google.com", icon: <LanguageIcon /> },
+        { link: "/", icon: <LanguageIcon /> },
         { link: "https://github.com/tbenjamin1/Alumni", icon: <GitHubIcon /> },
         // { link: "https://www.google.com", icon: <LanguageIcon /> },
       ],
     },
 
     {
-      tag: "Python",
-      image: require("../../assets/images/pp.jpg").default,
-      title: "project 1",
+      tag: "javascript",
+      image: require("../../assets/images/ltry.PNG").default,
+      title: "LOTTERY APP",
       capation:'s simply dummy text of the printing and typesetting ',
       description:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
       link: [
-        { link: "https://www.google.com", icon: <LanguageIcon /> },
-        { link: "https://www.google.com", icon: <GitHubIcon /> },
-        { link: "https://www.google.com", icon: <LanguageIcon /> },
+        { link: "https://tbenjamin1.github.io/Loterry-App/", icon: <LanguageIcon /> },
+        { link: "https://github.com/tbenjamin1/Loterry-App", icon: <GitHubIcon /> },
+        
       ],
     },
   ],

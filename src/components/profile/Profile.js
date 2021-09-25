@@ -1,5 +1,5 @@
-import { Typography } from "@material-ui/core";
 import React from "react";
+import { Typography } from "@material-ui/core";
 import CustomButton from "../button/Button";
 import "./Profile.css";
 import CustomTimeline, { CustomTimelineSeparator } from "./timeline/Timeline";
