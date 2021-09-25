@@ -131,7 +131,7 @@ export default {
     {
       title: "DATABASES",
 
-      description: ["git", "gitHub", "Netlify", "heroko"],
+      description: ["mysql", "postgrace"],
     },
   ],
 
