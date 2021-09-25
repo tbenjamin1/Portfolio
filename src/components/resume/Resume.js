@@ -1,5 +1,7 @@
 import React from "react";
-import { Grid, Icon, Paper, TextField, Typography } from "@material-ui/core";
+import { Grid, Icon, Paper, TextField, Typography,SchoolIcon,NetworkCheckIcon } from "@material-ui/core";
+// import {SchoolIcon} from '@mui/icons-material/School';
+// import {NetworkCheckIcon} from '@mui/icons-material/NetworkCheck';
 import CustomButton from "../button/Button";
 import resumeData from "../utils/resumeData";
 
@@ -72,7 +74,7 @@ const Resume = () => {
             </Grid>
             {/* eduction */}
             <Grid item sm={12} md={6}>
-              <CustomTimeline title="Education" icon="skull">
+              <CustomTimeline title="Education" icon="school">
                 {resumeData.educations.map((education) => (
                   <TimelineItem>
                     <CustomTimelineSeparator />
@@ -137,6 +139,12 @@ const Resume = () => {
         justify={"space-between"}
         className="section graybg pb_45"
       >
+      <Grid item className="section_title mb_30 ">
+          <span></span>
+          <h6 className="section_title_text"> Skills</h6>
+        </Grid>
+        <Grid container spacing={2} justify="space-around" >
+
         {resumeData.skills.map((skill) => (
           <Grid item sx={12} sm={6} md={3}>
             <Paper elevation={0} className="skill">
@@ -151,6 +159,8 @@ const Resume = () => {
             </Paper>
           </Grid>
         ))}
+        </Grid>
+        
       </Grid>
       {/*contact  */}
       <Grid container spacing={6} className="section pt_45 pb_45">
@@ -182,7 +192,7 @@ const Resume = () => {
                   </Grid>
                   <Grid item sm={12}>
                    
-                    <button> submmit</button>
+                    <button  className="submmit" > submmit</button>
                   </Grid>
                 </Grid>
               </Grid>

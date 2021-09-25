@@ -27,12 +27,12 @@ export default {
       text: <TwitterIcon />,
     },
     GitHub: {
-      link: "https://www.facebook.com",
+      link: "https://github.com/tbenjamin1",
       txt: "Mylinkdin",
       text: <GitHubIcon />,
     },
     Linkedlin: {
-      link: "https://www.facebook.com",
+      link: "https://www.linkedin.com/in/tuyisingize-benjamin-2480a3211/",
       txt: "myGitHub",
       text: <LinkedInIcon />,
     },
@@ -43,19 +43,19 @@ export default {
   experiences: [
     {
       title: "PANEL TECH",
-      date: "218 - PresentToAll",
+      date: "2018 - PresentToAll",
       description:
         "software engineer",
     },
     {
       title: "ARCONSULT ENGINEERING ",
-      date: "218 - 214",
+      date: "2018 - 2014",
       description:
         "IT SUPPROT TECHNICIAN  ",
     },
     {
       title: "UNIVERSITY OF RWANDA",
-      date: "214 -215",
+      date: "2014 -2015",
       description:
         "internship ",
     },
@@ -65,7 +65,7 @@ export default {
   educations: [
     {
       title: "UNIVERSITY OF RWANDA",
-      date: "217 - PresentToAll",
+      date: "2017 - PresentToAll",
       description:
         " Honor’s Bachelor of Computer Software Engineering ",
     },
@@ -83,7 +83,7 @@ export default {
     },
     {
       title: "EP GISOZI II",
-      date: "218 - 214",
+      date: "",
       description:
         "",
     },
