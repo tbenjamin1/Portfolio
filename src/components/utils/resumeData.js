@@ -97,7 +97,7 @@ export default {
     {
       title: "UI / UX DESIGN",
       description: " we learn ..we create ..design",
-      icon: <LanguageIcon />,
+      icon: <LanguageIcon />, 
     },
 
     {
@@ -119,14 +119,14 @@ export default {
         "React js",
         "javaScript",
         "typeScript",
-        "laravel",
+        
         "bootStrap",
         "material ui",
       ],
     },
     {
       title: "BACK_END",
-      description: ["Node js", "php"],
+      description: ["Node js", "php","laravel"],
     },
     {
       title: "DATABASES",
