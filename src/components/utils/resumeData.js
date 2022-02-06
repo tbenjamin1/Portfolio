@@ -42,6 +42,24 @@ export default {
     " Am persistent and ambitious software engineer with a desire to grow fast in this domain. Capable of ramping up  quickly and efficiently, and of both working in a team or solo. Love of remote work. Skills in many languages,frameworks, and technologies.",
   experiences: [
     {
+      title: "Andela Technical Leadership Program",
+      date: "2021 - present",
+      description:
+        "software engineer",
+    },
+    {
+      title: "Solvit Africa",
+      date: "january 2022 - february 2022",
+      description:
+        "software engineer",
+    },
+    {
+      title: "Klab StartUps Academy",
+      date: "september 2021 - decemver 2021",
+      description:
+        "software engineer",
+    },
+    {
       title: "PANEL TECH",
       date: "2018 - PresentToAll",
       description:
@@ -106,11 +124,7 @@ export default {
       icon: <LanguageIcon />,
     },
 
-    // {
-    //   title: "web dev",
-    //   description: "i have a been a good dev for 2 years",
-    //   icon: <LanguageIcon />,
-    // },
+    
   ], 
   skills: [
     {
