@@ -69,8 +69,8 @@ const Portfolio = () => {
 
       {/* projects */}
 
-      <Grid item sx={12}>
-        <Grid container spacing={2} className='section_project pr_45'>
+   
+        <div  className='section_project pr_45'>
           {resumeData.projects.map((project) => (
             <>
               {tabValue === project.tag || tabValue === "All" ? (
@@ -104,8 +104,8 @@ const Portfolio = () => {
               ) : null}
             </>
           ))}
-        </Grid>
-      </Grid>
+        </div>
+     
       <Dialog open={projectDialog} onClose={() => setProjectDialog(false) } className="projectDialog" fullwidth >
 <DialogTitle   onClose={() => setProjectDialog(false) }  > {projectDialog.title}</DialogTitle>
 <img src={projectDialog.image} alt="project" className="projectDialog_image" />

@@ -122,6 +122,7 @@ export default {
         
         "bootStrap",
         "material ui",
+        "Tailwind css"
       ],
     },
     {
@@ -136,20 +137,20 @@ export default {
   ],
 
   projects: [
+  
     {
       tag: "React",
-      image: require("../../assets/images/cvd.PNG").default,
-      title: "COVID TRACKER",
-      capation:'This project consists of creating a simple one page COVID calculator that pulls data from an open COVID API.',
+      image: require("../../assets/images/isuzume.jpg").default,
+      title: "Isuzume & Isume Pharmacy",
+      capation:'Isuzume and Isuzume pharmacy Solution to local hospital',
       description:
-        "This project consists of creating a simple one page COVID calculator that pulls data from an open COVID API",
+        "Isuzume is part of Imbehe ltd. its main purpose is to bring close health services into the commnity and create the best experience ever gonna get .",
       link: [
-        { link: "https://sad-brown-b32ada.netlify.app/", icon: <LanguageIcon /> },
-        { link: "https://github.com/tbenjamin1/covid-_tracker", icon: <GitHubIcon /> },
-        // { link: "https://www.google.com", icon: <LanguageIcon /> },
+        { link: "http://isuzume.klabstartupsacademy.rw/", icon: <LanguageIcon /> },
+        { link: "https://github.com/tbenjamin1/", icon: <GitHubIcon /> },
+        
       ],
     },
-
     {
       tag: "React",
       image: require("../../assets/images/food.PNG").default,
