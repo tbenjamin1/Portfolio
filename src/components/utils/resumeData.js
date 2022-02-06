@@ -55,7 +55,7 @@ export default {
     },
     {
       title: "Klab StartUps Academy",
-      date: "september 2021 - decemver 2021",
+      date: "september 2021 - december 2021",
       description:
         "software engineer",
     },
