@@ -1,5 +1,5 @@
 .footer{
-    background: linear-gradient(0.25turn,#e8a1eb,#4193d6 );
+    background: linear-gradient(0.25turn, rgb(143, 212, 212), rgb(143, 212, 212));
     color: white;
     display: flex;
     flex-wrap: wrap;

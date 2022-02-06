@@ -11,9 +11,8 @@ const Footer = () => {
         </div>
         <div className='footer_right' >
         <Typography  className='footer_copyright' >
-            designed and developed by <a href='/' target='_blank'>tben polly</a>
-            <br></br>
-            clone idea from <a href='/' target='_blank' >travonline . </a>
+            Developed by <a href='/' target='_blank'>tben polly</a>
+            
         </Typography>
         </div>
 

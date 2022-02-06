@@ -6,6 +6,7 @@ margin-left: 4rem;
 }
 .section_project{
     padding: 40px;
+    background-color: rgb(243, 241, 241);
    
    
 }
@@ -33,6 +34,8 @@ box-shadow:0 px 0px 48px rgba(4,6,4,0.08) !important;
 border-radius: 5px;
 overflow: hidden;
 outline-width: 0px !important;
+margin: 1rem;
+
 
 
 }
