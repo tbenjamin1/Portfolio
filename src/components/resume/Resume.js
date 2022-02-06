@@ -122,7 +122,7 @@ const Resume = () => {
                   </Typography>
                   <Typography className="service_description">
                     {" "}
-                    {service.description}{" "}
+                
                   </Typography>
                 </div>
               </Grid>
